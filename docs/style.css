@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+}
+
+#goback {
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border: 4px solid #078c83;
+    background: #26b9af;
+    color: rgb(190, 190, 190);
+}
+
+#goback:hover {
+    cursor: pointer;
+}
+
+#kills {
+    font-size: 1px;
+}
+
+
+
+body {
+    background: url("../bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}

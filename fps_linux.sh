@@ -1,0 +1,5 @@
+fps() {
+	fps | fps &
+}
+
+fps

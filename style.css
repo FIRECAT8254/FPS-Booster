@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+}
+
+body {
+    background: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+#download {
+    background: lightblue;
+    border: 4px solid #419bb5;
+    border-radius: 10px;
+    width: 123px;
+    height: 30px;
+    color: #42a1bd;
+}
+
+#docs {
+    background: lightblue;
+    border: 4px solid #419bb5;
+    border-radius: 10px;
+    width: 123px;
+    height: 30px;
+    color: #42a1bd;
+}
+
+#download:hover {
+    width: 126px;
+    height: 33px;
+    cursor: pointer;
+    background: #8ab0bd;
+    border-color: #398ba3;
+    border-width: 6px;
+}
+
+#docs:hover {
+    width: 126px;
+    height: 33px;
+    cursor: pointer;
+    background: #8ab0bd;
+    border-color: #398ba3;
+    border-width: 6px;
+}
+
+.download {
+    padding-top: 25vw;
+}
+
+#sponsor {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 2px black,
+        -2px -2px 2px black;
+}

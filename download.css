@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+}
+
+.download {
+    border-radius: 10px;
+    background: url("./pattern.png");
+    border-width: 0px;
+    width: 90px;
+    height: 50px;
+    color: rgb(166, 166, 59);
+    font-size: medium;
+    text-shadow: 2px 2px 2px darkred;
+    margin-top: 7px;
+}
+
+.download:hover {
+    cursor: pointer;
+}
+
+div {
+    padding-top: 25vw;
+}
+
+body {
+    background: url("./dlbg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
